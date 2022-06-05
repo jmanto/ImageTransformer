@@ -269,19 +269,26 @@ QListWidget::item:selected {
 	background-color: #47A6E5;
 }
 
-QDockWidget::title {
-	background: #232323;
-}
-
 QTreeWidget {
 	border-radius: 4px;
-	background-color: rgb(30, 30, 30);
-	alternate-background-color: rgb(29, 29, 29);
+	border: 1px solid rgb(37, 37, 37);
+	background-color: #404040;
+	alternate-background-color: #808080;
+	font-size: 14px;
+}
+
+QTreeWidget::item {
+	border: 0px;
 	color: #fafafa;
 }
 
 QTreeWidget::item:selected {
-	background-color: #718792;
+	border: 0px;
+	background-color: #47A6E5;
+}
+
+QDockWidget::title {
+	background: #232323;
 }
 
 QTableView {

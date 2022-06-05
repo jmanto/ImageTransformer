@@ -6,6 +6,7 @@ from PyQt5 import QtWidgets, QtCore, QtGui, Qt
 from package.image import CustomImage
 import package.app_base as ab
 
+
 class Worker(QtCore.QObject):
     QtCore.Signal = QtCore.pyqtSignal
     image_converted = QtCore.Signal(object, bool)
